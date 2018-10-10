@@ -1,0 +1,54 @@
+body {
+  background-color: #eee;
+  font-family: monospace;
+  color: #333;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-card-1 {
+  flex: 1;
+}
+
+
+/* Flex cards */
+.container {
+  max-width: auto;
+  border: 1px solid #ccc;
+}
+
+.card {
+  margin: 5px;
+  text-align: center;
+  font-size: 1.5em;
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+
+}
+
+.card img {
+  width: 400px;
+  height: 300px;
+}
+
+
+.button {
+  background-color: #FF5A5F;
+  color: #FFFAFA;
+  border: 0;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+}
+
+.button:hover {
+  background-color: #FF5A31;
+}
